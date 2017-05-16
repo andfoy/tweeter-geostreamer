@@ -1,0 +1,19 @@
+{
+  "name": "twitter-geostreamer",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.20.0",
+    "d3": "^3.5.17",
+    "d3-geo-projection": "^0.2.16",
+    "topojson": "^1.6.27",
+    "meteor-node-stubs": "~0.2.4",
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-addons-pure-render-mixin": "^15.5.2",
+    "react-dom": "^15.5.4",
+    "twitter": "^1.7.0"
+  }
+}

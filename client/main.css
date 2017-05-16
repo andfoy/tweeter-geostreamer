@@ -1,0 +1,33 @@
+/* CSS declarations go here */
+
+/*.canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color:rgba(255,0,0,0.5);
+}
+*/
+.container {
+  margin: 0 auto;
+  position: relative;
+}
+
+
+
+canvas {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color:rgba(255,255,255,0);
+}
+
+.colombiaMap {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

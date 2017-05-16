@@ -100,6 +100,7 @@ export default class ColombiaMap extends Component {
 		}
 
 		// When clicked, zoom in
+		let that = this;
 		function clicked(d) {
 		  var x, y, k;
 
@@ -125,7 +126,7 @@ export default class ColombiaMap extends Component {
 		  g.transition()
 		    .duration(750)
 		    .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')scale(' + k + ')translate(' + -x + ',' + -y + ')');
-		  this.props.notifyZoom();
+		  that.props.notifyZoom();
 		}
 
 		function mouseover(d){

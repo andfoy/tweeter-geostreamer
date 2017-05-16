@@ -16,6 +16,8 @@ export default class Overlay extends Component {
     }
 
     componentWillUpdate() {
+        let ctx = this.canvas.getContext('2d');
+        ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
         console.log("What Am I doing?");
         // console.log(this.props.tweets);
         // console.log(this.props.getProjection());

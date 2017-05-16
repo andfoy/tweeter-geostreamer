@@ -12,7 +12,8 @@ export class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-        projection: null
+        projection: null,
+        zoom: 0
     }
 
   }
@@ -39,6 +40,7 @@ export class App extends Component {
 
   notifyZoom() {
     console.log("Zoom!");
+    this.setState({'zoom':2});
   }
 
   render() {
@@ -55,7 +57,8 @@ export class App extends Component {
           {this.props && this.props.tweets ?
           <div className='container'>
           <Overlay tweets={this.props.tweets}
-                   getProjection={this.getProjection.bind(this)}></Overlay>
+                   getProjection={this.getProjection.bind(this)}
+                   zoom={this.props.zoom}></Overlay>
           <ColombiaMap
             width="600"
             height="600"

@@ -6,14 +6,20 @@
   },
   "dependencies": {
     "babel-runtime": "^6.20.0",
+    "bootstrap": "^3.3.7",
     "d3": "^3.5.17",
     "d3-geo-projection": "^0.2.16",
-    "topojson": "^1.6.27",
+    "expectation-maximization": "^1.5.0",
+    "jquery": "^3.2.1",
     "meteor-node-stubs": "~0.2.4",
+    "numeric": "^1.2.6",
     "prop-types": "^15.5.8",
     "react": "^15.5.4",
     "react-addons-pure-render-mixin": "^15.5.2",
+    "react-bootstrap": "^0.31.0",
     "react-dom": "^15.5.4",
+    "react-slider": "^0.7.0",
+    "topojson": "^1.6.27",
     "twitter": "^1.7.0"
   }
 }

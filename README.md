@@ -1,5 +1,5 @@
 # tweeter-geostreamer
-Live map that displays each tweet in a map according to its geographical origin.
+Live map that displays each tweet in a map according to its geographical origin. It also allows to group all the tweet geographical origin locations by fitting a Gaussian Mixture Model.
 
 ## Deployment
 To deploy this project, you must have Meteor installed, you must create and define your own Twitter API keys. After completing this steps, you can define a bash/batch script that executes the following instructions:
